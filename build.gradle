@@ -33,3 +33,8 @@ dependencies {
 	compile("org.projectlombok:lombok")
 	testCompile('org.springframework.boot:spring-boot-starter-test')
 }
+
+bootRun {
+	// support passing -Dsystem.property=value to bootRun task
+	systemProperties = System.properties
+}

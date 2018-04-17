@@ -20,6 +20,8 @@ Just run the application and use the endpoints described above.
 
 ad.2
 
+To run multiple instances using spring boot gradle plugin specify the server port like this: `gradle bootRun -Dserver.port=9021`
+
 TODO
 
 ad.3
